@@ -94,6 +94,7 @@
  ========================================================*/
 
 #section1 {
+
 	padding-top:50px;
 	height:500px;	
 
@@ -107,7 +108,7 @@
  	background-color: #F5F5F5;
  	border-bottom: black double 5px;
  	position:relative;
- 
+
  	
 }
 
@@ -173,8 +174,8 @@
 ===============================================================*/
 
 #section3 {
-	padding-top:50px;
-	height:500px;
+	/*padding-top:50px;*/
+	height:600px;
 	
 }
 
@@ -182,15 +183,140 @@
 
  	margin:0;
  	padding:0;
- 	height:500px;
- 	background-color: 	#F5F5F5;
+ 	height:600px;
+ 	background-color: #F5F5F5;
+ 	border-bottom: black double 5px;
  	
 }
 
-.rowSNE {
+/*ROW1++++++++++++++++++++++++++++++++++++*/
+.rowSNE1 {
 
 	margin:0;
 	padding:0;
-	height:400px;
-	color: transparent
+	height:300px;
+	color: transparent;
+	border:green solid 1px;
 }
+
+.site1 {
+
+	margin:0;
+	padding:230px 0px 0px 50px; 
+	height:300px;
+	border: red solid 1px;
+	background-image: url("../img/site1.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 450px 250px;
+	
+}
+
+.site2 {
+
+	margin:0;
+	padding:0;
+	height:300px;
+	border: red solid 1px;
+	background-image: url("../img/site2.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 450px 250px;
+}
+
+.site3 {
+
+	margin:0;
+	padding:0;
+	height:300px;
+	border: red solid 1px;
+	background-image: url("../img/site3.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 450px 250px;
+}
+
+/*ROW2+++++++++++++++++++++++++++++++++++++*/
+.rowSNE2 {
+
+	margin:0;
+	padding:0;
+	height:300px;
+	color: transparent;
+	border:green solid 1px;
+}
+
+.site4 {
+
+	margin:0;
+	padding:0;
+	height:300px;
+	border: red solid 1px;
+	background-image: url("../img/site4.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 450px 250px;
+}
+
+.site5 {
+
+	margin:0;
+	padding:0;
+	height:300px;
+	border: red solid 1px;
+	background-image: url("../img/site5.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 450px 250px;
+}
+
+.site6 {
+
+	margin:0;
+	padding:0;
+	height:300px;
+	border: red solid 1px;
+	background-image: url("../img/site6.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 450px 250px;
+}
+
+
+
+
+.modal {
+
+	margin-top: 200px;
+}
+
+.modal-dialog {
+
+	width:600px;
+}
+
+.modal-content {
+
+	color:#000000;
+	text-align: justify;
+	font-size:1.15em;
+}
+
+.modal-header {
+
+	text-align: center;
+}
+
+.bold {
+
+	font-weight:bold;
+	
+}
+
+.backgmodbody {
+
+	
+}
+
+
+

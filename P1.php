@@ -12,7 +12,7 @@
 		          <span class="icon-bar"></span>
 		          <span class="icon-bar"></span>                        
 		      	</button>
-	      		<a class="navbar-brand navbrand" href="#"><i class="fa fa-navicon" style="font-size:60px;padding:0"></i></a>
+	      		<a class="navbar-brand navbrand" href="#"><i class="fa fa-arrow-circle-up" style="font-size:60px;padding:0"></i></a>
 	    	</div>
 	    	<div>
 	      		<div class="collapse navbar-collapse navcolapse" id="myNavbar">
@@ -51,7 +51,40 @@
 
 		<div class="row rowSNE1">
 
-			<div class="col-lg-4 site1"></div>
+			<div class="col-lg-4 site1">
+
+
+				<!--glyphicon cliquable qui renvoi un modal d'info-->
+          		<button type="button" class="btn btn-info btn-lg btnmod" id="myBtn" data-toggle="modal" data-target="#myModal">3 pignons</button>
+
+          		 <!-- Modal -->
+          		<div class="modal" id="myModal" role="dialog">
+            		<div class="modal-dialog modal-lg">
+              			<div class="modal-content">
+                			<div class="modal-header">
+                  				<button type="button" class="close" data-dismiss="modal">&times;</button>
+                  				<h3 class="modal-title"><span class="bold">Pignon de Vélo</span></h3>
+                			</div>
+           				 	<div class="modal-body backgmodbody">
+                  				<p>
+                    			<span class="bold">Meilleures Périodes:</span><br>Avril/Mai/Juin/Septembre<br>
+                    			<span class="bold">Orientation: </span>N-NO<br>
+			                    <span class="bold">Rocher: </span>calcaire<br>
+			                    <span class="bold">Nb de voies: </span>42<br>
+			                    <span class="bold">Hauteur: </span>jusqu'à 75m<br>
+			                    <span class="bold">Difficulté: </span>du 5c à 7c<br>
+			                    <span class="bold">Localisation: </span>Ici et là
+			                  	</p>
+			                </div>
+                  			<div class="modal-footer">
+                    			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  			</div>
+              			</div>
+            		</div>
+        		</div>
+    		</div>
+          
+
 			<div class="col-lg-4 site2"></div>
 			<div class="col-lg-4 site3"></div>
 		</div>
@@ -62,9 +95,6 @@
 			<div class="col-lg-4 site5"></div>
 			<div class="col-lg-4 site6"></div>
 		</div>
-
-
-
 
 	</div>
 
