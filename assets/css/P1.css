@@ -103,27 +103,56 @@
 .contsec1 {
 
  	margin:0;
- 	padding:100px 0px 0px 0px;
- 	height:700px;
- 	border: red solid 1px;
- 	display:block;
+ 	padding:0;
+ 	height:500px;
+ 	background-color: 	#F5F5F5;
+ 	
+}
+
+.rowpresent {
+
+	margin:0;
+	padding:0;
+	height:400px;
+	color: transparent
 }
 
 .colsec1 {
 
 	margin:0;
 	padding:0;
-	width:700px;
+	height:400px;
 	text-align:center;
+	
 }
-
-
 
 .imgsec1 {
 
 	margin:0;
 	padding:0;
-	height: 300px;
-	width:500px;
+	height: 400px;
 	
 }
+
+.txtpresente{
+
+	margin:0;
+	padding:0;
+	height:400px;
+	position:relative;
+	display:inline-block;
+	background-color: transparent;
+
+}
+
+.txtpres {
+
+	margin:0;
+	padding:50px 130px 0px 160px;
+	height:400px;
+	font-size:150%;
+	text-align: center justify;
+	color: black;
+
+}
+
