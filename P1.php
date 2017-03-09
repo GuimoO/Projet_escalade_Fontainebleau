@@ -45,6 +45,30 @@
 	</div>
 
 
+	<!-- SECTION 2 HTML================================================-->
+
+	<div id="section3" class="container-fluid contsec3">
+
+		<div class="row rowSNE1">
+
+			<div class="col-lg-4 site1"></div>
+			<div class="col-lg-4 site2"></div>
+			<div class="col-lg-4 site3"></div>
+		</div>
+
+		<div class="row rowSNE2">
+
+			<div class="col-lg-4 site4"></div>
+			<div class="col-lg-4 site5"></div>
+			<div class="col-lg-4 site6"></div>
+		</div>
+
+
+
+
+	</div>
+
+
 
 
 
