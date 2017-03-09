@@ -30,13 +30,18 @@
 	</nav>
 
 	<div id="section1" class="container-fluid contsec1">
-		
-		<div class="colsec1">
-			<img src="../climbing_project/assets/img/mapbleau.jpg" alt="Ville de Fontainebleau" class="img-thumbnail imgsec1"/>
+
+		<div class="row rowpresent">
+
+			<div class="col-lg-6 colsec1">
+				<img src="../climbing_project/assets/img/mapbleau.jpg" alt="Ville de Fontainebleau" class="img-thumbnail imgsec1"/>
+			</div>
+
+			<div class=" col-lg-6 txtpresente">
+				<p class="txtpres">La commune de Fontainebleau est située au sud-ouest du département de Seine-et-Marne et s’étend sur 17 205h.<br> C’est la plus vaste commune de la région Ile-de-France,<br> et elle est presque entièrement recouverte d’une forêt, lieu de promenade mais son relief très accidenté et ses nombreux rochers en font aussi un lieu très réputé pour la pratique de l’escalade ! Divers endroits de la forêt sont recouverts de quartz à l’état brut !<br>
+				Alors n’hésitez plus et découvrez les nombreux sites de « grimp » de Fontainebleau!</p>
+			</div>
 		</div>
-
-		<div class="textpresente"></div>
-
 	</div>
 
 
