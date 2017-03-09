@@ -44,25 +44,7 @@
 		</div>
 	</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<?php include 'includes/inclu_actu.php'; ?>
 <?php include 'includes/inclu_footer.php'; ?>
 
 
