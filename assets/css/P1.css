@@ -1,0 +1,129 @@
+/*css du "header" background img
+ et titre du site*/ 
+
+.homehead {
+
+	margin:0;
+	padding:0px;
+	height:500px;
+	background-image: url("../img/img_header_climbing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.titre {
+	font-family: Blippo, fantasy;
+	font-weight: bold;
+	background-color: transparent;
+	margin:0;
+	padding: 300px 500px 0px 20px;
+	letter-spacing: 3px;
+	font-size: 600%;
+	height:500px;
+}
+
+/*NAVBAR!!============================================================
+===========================================================================*/
+
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+}
+
+.navbar {
+      margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+     position: relative;
+     top: 0px;
+}
+
+.nanav {
+
+  	height:100px;
+}
+
+.divcont {
+
+  	height:100px;
+}
+
+.divnavhead{
+
+  	height:100px;
+}
+
+.navtog {
+
+  	height:100px;
+}
+
+.navbrand {
+	
+	padding:20px 40px;
+  	height:100px;
+  	width: 150px;
+}
+
+.navcolapse{
+
+  	padding:25px 0px 10px 0px;
+  	margin:0;
+  	
+}
+
+.secnav{
+
+  	height:60px;
+  	width: 200px;
+  	padding:0;
+  	font-size:130%;
+  	font-weight: bold;
+  	text-align: center;
+}
+
+.linav {
+
+ 	padding:0;
+
+}
+
+ /*SECTION1 PRESENTATION==============================
+ ========================================================*/
+
+#section1 {
+	padding-top:50px;
+	height:500px;
+	
+
+}
+
+.contsec1 {
+
+ 	margin:0;
+ 	padding:100px 0px 0px 0px;
+ 	height:700px;
+ 	border: red solid 1px;
+ 	display:block;
+}
+
+.colsec1 {
+
+	margin:0;
+	padding:0;
+	width:700px;
+	text-align:center;
+}
+
+
+
+.imgsec1 {
+
+	margin:0;
+	padding:0;
+	height: 300px;
+	width:500px;
+	
+}

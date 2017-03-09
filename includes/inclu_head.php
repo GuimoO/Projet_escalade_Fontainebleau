@@ -34,6 +34,7 @@
 
 
 
+
   </head>
-  <body>
-    <div class="container-fluid contglo">
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
