@@ -162,9 +162,57 @@
 ====================================================================*/
 
 
+#section2 {
+	padding-top:50px;
+	height:500px;	
 
+}
 
+.contActu {
 
+ 	margin:0;
+ 	padding:0;
+ 	height:500px;
+ 	
+ 	border-bottom: black double 5px;
+ 	
+ 	
+}
+
+.rowActu {
+
+	margin:0;
+	padding:0;
+	
+
+}
+.rowBt
+{
+	margin:0;
+	padding:0;
+	text-align: center;
+	height:50px;
+}
+.paneldef
+{
+	margin:0;
+	padding:0;
+}
+.panelH
+{
+	margin:0;
+	padding:0;
+}
+.panelB
+{
+	margin:0;
+	padding:0;
+}
+.bout
+{
+	margin:0;
+	padding:0;
+}
 
 
 

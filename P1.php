@@ -45,6 +45,7 @@
 	</div>
 
 
+
 	<!-- SECTION 2 HTML================================================-->
 
 	<div id="section3" class="container-fluid contsec3">
@@ -116,6 +117,8 @@
 
 
 
+
+<?php include 'includes/inclu_actu.php'; ?>
 
 <?php include 'includes/inclu_footer.php'; ?>
 
