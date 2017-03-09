@@ -1,14 +1,10 @@
 
 <?php
 
-
+//connexion BDD
 include_once "modele/connexion_bdd.php"; 
-
+//Selection de tous les champs de la table evenement et affeter à une variable
 $result = $bdd->query('SELECT * FROM evenement');
-//$result = $result->fetchAll(); 
-//var_dump($result);
-
-
 
 ?>
 
@@ -37,6 +33,7 @@ $result = $bdd->query('SELECT * FROM evenement');
 						<tbody>
 
 <?php 		while($donnee = $result->fetch()) 
+//récupération des données à l'aide de la fonction fetch qui va chercher toutes les donnees jusqu'à ce qu'il ny en ai plus
 		{ ?>
 		       				<tr>  
 	                    		<td><?php echo $donnee['event']; ?></td>    

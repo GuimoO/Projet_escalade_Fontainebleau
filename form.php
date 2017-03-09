@@ -1,7 +1,6 @@
 
 <?php include "includes/inclu_head.php"; ?>
-
-
+<!--formulaire avant d'envoyer sur la base de donnée-->
 
 <div class="container-fluid">
     <form action="form_action.php" method="post" name="formulaire">
