@@ -28,13 +28,13 @@
 		    </div>
 	  	</div>
 	</nav>
-
+	
 	<div id="section1" class="container-fluid contsec1">
 
 		<div class="row rowpresent">
 
 			<div class="col-lg-6 colsec1">
-				<img src="../climbing_project/assets/img/mapbleau.jpg" alt="Ville de Fontainebleau" class="img-thumbnail imgsec1"/>
+				<img src="assets/img/mapbleau.jpg" alt="Ville de Fontainebleau" class="img-thumbnail imgsec1"/>
 			</div>
 
 			<div class=" col-lg-6 txtpresente">
@@ -47,7 +47,9 @@
 
 
 	<!-- SECTION 2 HTML================================================-->
+	<?php include 'includes/inclu_actu.php'; ?>
 
+	<!-- SECTION 3 HTML================================================-->
 	<div id="section3" class="container-fluid contsec3">
 
 		<div class="row rowSNE1">
@@ -118,7 +120,7 @@
 
 
 
-<?php include 'includes/inclu_actu.php'; ?>
+
 
 <?php include 'includes/inclu_footer.php'; ?>
 
