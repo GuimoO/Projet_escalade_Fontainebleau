@@ -141,20 +141,23 @@
 	margin:0;
 	padding:0;
 	height:400px;
+	overflow: auto;
+	text-align: justify;
 	position:relative;
-	display:inline-block;
+	font-size:150%;
 	background-color: transparent;
+	color: black;
 
 }
 
 .txtpres {
 
-	margin:0;
+	
 	padding:50px 130px 0px 160px;
-	height:400px;
-	font-size:150%;
-	text-align: center justify;
-	color: black;
+	
+	
+	
+	
 
 }
 
