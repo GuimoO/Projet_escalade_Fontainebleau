@@ -3,7 +3,7 @@
 <!--formulaire avant d'envoyer sur la base de donnée-->
 
 <div class="container-fluid">
-    <form action="form_action.php" method="post" name="formulaire">
+    <form action="action_php/form_action.php" method="post" name="formulaire">
   		<p>The form below contains two input elements; one of type text and one of type password:</p>
     	<div class="form-group">
       		<label>EVENT:</label>
@@ -15,7 +15,7 @@
     	</div>
     	
       		<input type="reset" name="submit" value="Réinitialiser le formulaire">
-      		<input href="form.php" type="submit" name="submit" action="form.php" value="Envoyer">
+      		<input href="action_php/form_action.php" type="submit" name="submit" action="action_php/form_action.php" value="Envoyer">
     
     </form>
 </div>

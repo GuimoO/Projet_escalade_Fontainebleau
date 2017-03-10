@@ -13,7 +13,7 @@ $donnee = $result->fetch();
 
 ?>		
 <div class="container-fluid">
-    <form action="edit_action.php?id=<?php echo $id; ?>" method="post" name="formulaire">
+    <form action="action_php/edit_action.php?id=<?php echo $id; ?>" method="post" name="formulaire">
   		<p>The form below contains two input elements; one of type text and one of type password:   </p>
     	<div class="form-group">
       		<label>EVENT:</label>
@@ -25,7 +25,7 @@ $donnee = $result->fetch();
     	</div>
    	
       		<input type="reset" name="submit" value="Réinitialiser le formulaire">
-      		<input href="edit_action.php?id=<?php echo $id; ?>" type="submit" name="submit" action="edit_action.php?id=<?php echo $id; ?>" value="Envoyer">
+      		<input href="action_php/edit_action.php?id=<?php echo $id; ?>" type="submit" name="submit" action="action_php/edit_action.php?id=<?php echo $id; ?>" value="Envoyer">
     </form>
 </div>
 
