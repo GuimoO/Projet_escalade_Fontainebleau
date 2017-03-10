@@ -14,7 +14,7 @@ $donnee = $result->fetch();
 ?>		
 <div class="container-fluid">
     <form action="edit_action.php?id=<?php echo $id; ?>" method="post" name="formulaire">
-  		<p>The form below contains two input elements; one of type text and one of type password: </p>
+  		<p>The form below contains two input elements; one of type text and one of type password:   </p>
     	<div class="form-group">
       		<label>EVENT:</label>
       		<input type="text" name="event" class="form-control" placeholder="<?php echo $donnee['event']; ?>">
