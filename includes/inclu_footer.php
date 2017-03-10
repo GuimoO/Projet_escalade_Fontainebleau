@@ -51,17 +51,18 @@
 		  				<button type="submit" class="btn btn-default btn-lg bt">Envoyer</button>
 					</form>
 			</div>
-
 			<div class="dropdown drpdwn">
-						<button class="dropbtn">Langues</button>
-						<div class="dropdown-content">
-						<a href="#">Français</a>
-						<a href="#">English</a>
-						<a href="#">Español</a>
-						<a href="#">Italiano</a>
-						<a href="#">中國</a>
-						</div>
-			</div>
+			    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Langues
+			    <span class="caret"></span>
+			    </button>
+			    <ul class="dropdown-menu drpmenu">
+			      <li><a href="#">Français</a></li>
+			      <li><a href="#">English</a></li>
+			      <li><a href="#">espagnol</a></li>
+			      <li><a href="#">itiliano</a></li>
+			      <li><a href="#">中國</a></li>
+			    </ul>
+  			</div>
 		</div>
 	
 			<div class="copyright">

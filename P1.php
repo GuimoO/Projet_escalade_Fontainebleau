@@ -4,7 +4,7 @@
 		<h1 class="titre">ESCALADE<br>FONTAINEBLEAU</h1>
 	</div>
 
-	<nav class="navbar navbar-inverse nanav" data-spy="affix" data-offset-top="197">
+	<nav class="navbar navbar-inverse nanav" data-spy="affix" data-offset-top="0">
 	  	<div class="container-fluid divcont">
 	    	<div class="navbar-header divnavhead">
 		        <button type="button" class="navbar-toggle navtog" data-toggle="collapse" data-target="#myNavbar">
@@ -46,8 +46,8 @@
 
 
 
-	<!-- SECTION 2 HTML================================================
-	?php include 'includes/inclu_actu.php'; ?-->
+	<!-- SECTION 2 HTML================================================-->
+	<?php include 'includes/inclu_actu.php'; ?>
 
 	<!-- SECTION 3 HTML================================================-->
 	<div id="section3" class="container-fluid contsec3">
@@ -252,23 +252,23 @@
 				<!-- Page 1 -->
 				<div class="item active">  
 					<div class="carousel-page">
-						<img src="http://localhost/img/karma.jpg" class="img-responsive" style="margin:0px auto;" />
+						<img src="assets/img/jimmy_web.jpg" class="img-responsive" style="margin:0px auto;" />
 					</div> 
-					<div class="carousel-caption">Page 1 de présentation
+					<div class="carousel-caption">JIMMY WEB IN FONT
 					</div>
 				</div>   
 				<!-- Page 2 -->
 				<div class="item"> 
-					<div class="carousel-page"><img src="/images/twitter-bootstrap.jpg" class="img-responsive img-rounded" style="margin:0px auto;"/>
+					<div class="carousel-page"><img src="assets/img/melissa_Leneve.jpg" class="img-responsive img-rounded" style="margin:0px auto;"/>
 					</div> 
-					<div class="carousel-caption">Page 2 de présentation</div>
+					<div class="carousel-caption">MELISSA LENEVE CRUSHING SOME NEW ROCK IN FONT</div>
 					</div>  
 					<!-- Page 3 -->
 					<div class="item">  
 						<div class="carousel-page">
-							<img src="/images/tablette.png" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"/>
+							<img src="assets/img/compete.jpg" class="img-responsive img-rounded" style="margin:0px auto;max-height:100%;"/>
 						</div>  
-						<div class="carousel-caption">Page 2 de présentation</div>
+					<div class="carousel-caption">THE NEW CONTEST FROM RED BULL</div>
 						</div>     
 					</div>
 					<!-- Contrôles -->
